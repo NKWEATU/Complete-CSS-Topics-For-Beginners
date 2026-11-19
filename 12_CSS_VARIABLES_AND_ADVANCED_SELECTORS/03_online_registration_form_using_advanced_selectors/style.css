@@ -1,0 +1,109 @@
+/* Style the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+/* Style the registration form */
+form {
+    background-color: white;
+    max-width: 450px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Style form labels */
+form > label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* ATTRIBUTE SELECTOR */
+/* Select text, email and telephone inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    box-sizing: border-box;
+}
+
+/* Style the course dropdown */
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+}
+
+/* :focus */
+/* Change the input border when selected */
+input:focus,
+select:focus {
+    outline: none;
+    border: 2px solid blue;
+}
+
+/* :required */
+/* Style fields that are required */
+input:required,
+select:required {
+    border-left: 4px solid orange;
+}
+
+/* :disabled */
+/* Style disabled inputs */
+input:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+/* :checked */
+/* Style selected radio buttons and checkboxes */
+input:checked {
+    accent-color: green;
+}
+
+/* :is() */
+/* Apply the same styles to headings and buttons */
+:is(h1, button) {
+    font-family: Arial, sans-serif;
+}
+
+/* :has() */
+/* Highlight the agreement container when checked */
+.agreement:has(input:checked) {
+    color: green;
+    font-weight: bold;
+}
+
+/* Style the gender section */
+.gender {
+    margin-top: 10px;
+}
+
+/* Style the agreement section */
+.agreement {
+    display: block;
+    margin-top: 20px;
+}
+
+/* Style the submit button */
+button {
+    background-color: darkblue;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}

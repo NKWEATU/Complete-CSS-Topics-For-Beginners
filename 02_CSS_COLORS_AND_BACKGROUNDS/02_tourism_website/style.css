@@ -1,0 +1,67 @@
+
+/* Remove default page spacing */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Main tourism section */
+.hero-section {
+
+    /* Set a background image */
+    background-image: url("images/beach.jpg");
+
+    /* Prevent the image from repeating */
+    background-repeat: no-repeat;
+
+    /* Position the image at the center */
+    background-position: center;
+
+    /* Make the image cover the entire section */
+    background-size: cover;
+
+    /* Set the height of the section */
+    height: 400px;
+
+    /* Set a fallback background colour */
+    background-color: lightblue;
+
+    /* Center the text */
+    text-align: center;
+
+    /* Add space inside the section */
+    padding: 50px 20px;
+
+    /* Set text colour */
+    color: white;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 45px;
+}
+
+/* Style the description */
+.hero-section p {
+    font-size: 20px;
+}
+
+/* Style the button */
+button {
+    background-color: orange;
+    color: white;
+
+    padding: 12px 20px;
+
+    border: none;
+}
+
+/* Additional website content */
+.content {
+    background-color: lightgray;
+    color: black;
+
+    padding: 30px;
+
+    text-align: center;
+}

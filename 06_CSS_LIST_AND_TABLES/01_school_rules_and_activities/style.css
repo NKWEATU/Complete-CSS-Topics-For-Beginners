@@ -1,0 +1,55 @@
+/* Style the entire webpage */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fc;
+    padding: 20px;
+}
+
+/* Style the main heading */
+h1 {
+    color: darkblue;
+}
+
+/* Style the school rules list */
+.school-rules {
+    /* Change the bullet style */
+    list-style-type: square;
+
+    /* Place bullets inside the list area */
+    list-style-position: outside;
+
+    /* Add space inside the list */
+    padding: 20px;
+
+    /* Add space below the list */
+    margin-bottom: 30px;
+}
+
+/* Style the daily activities list */
+.daily-activities {
+    /* Use Roman numerals */
+    list-style-type: upper-roman;
+
+    /* Position numbering inside the list */
+    list-style-position: inside;
+
+    background-color: white;
+    padding: 20px;
+}
+
+/* Style the school clubs list */
+.school-clubs {
+    /* Remove the default bullets */
+    list-style-type: none;
+
+    /* Remove default list spacing */
+    padding: 0;
+    margin: 0;
+}
+
+/* Style each school club item */
+.school-clubs li {
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 8px;
+}

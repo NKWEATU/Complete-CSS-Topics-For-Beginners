@@ -1,0 +1,106 @@
+/* General webpage styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+/* Registration form */
+.registration-form {
+    background-color: white;
+    width: 350px;
+    max-width: 100%;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid gray;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Text inputs and dropdown */
+input:not([type="checkbox"]),
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* FOCUS PSEUDO-CLASS */
+/* Styles an input when selected */
+input:focus,
+select:focus {
+    border: 2px solid blue;
+    outline: none;
+    background-color: #f0f8ff;
+}
+
+/* REQUIRED PSEUDO-CLASS */
+/* Adds a coloured border to required fields */
+input:required {
+    border-left: 4px solid orange;
+}
+
+/* VALID PSEUDO-CLASS */
+/* Styles fields containing valid values */
+input:valid {
+    background-color: #eaffea;
+}
+
+/* INVALID PSEUDO-CLASS */
+/* Styles fields containing invalid values */
+input:invalid {
+    border: 2px solid red;
+}
+
+/* DISABLED PSEUDO-CLASS */
+/* Styles disabled input fields */
+input:disabled {
+    background-color: lightgray;
+    color: gray;
+    cursor: not-allowed;
+}
+
+/* ENABLED PSEUDO-CLASS */
+/* Styles enabled input fields */
+input:enabled {
+    font-size: 14px;
+}
+
+/* CHECKED PSEUDO-CLASS */
+/* Styles a checkbox when selected */
+input[type="checkbox"]:checked {
+    accent-color: green;
+}
+
+/* Agreement label */
+.agreement {
+    font-weight: normal;
+}
+
+/* Submit button */
+button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* HOVER PSEUDO-CLASS */
+button:hover {
+    background-color: green;
+}

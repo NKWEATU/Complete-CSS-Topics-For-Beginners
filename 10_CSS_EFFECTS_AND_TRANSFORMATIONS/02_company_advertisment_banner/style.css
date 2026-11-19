@@ -1,0 +1,74 @@
+/* Style the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+/* Style the heading */
+h1 {
+    color: darkblue;
+}
+
+/* Arrange the elements */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/* Style the advertisement banner */
+.banner {
+    background-color: darkblue;
+    color: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Style the advertisement button */
+button {
+    background-color: orange;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+}
+
+/* Style the transformation box */
+.transform-box {
+    background-color: orange;
+    color: white;
+    width: 150px;
+    height: 150px;
+
+    /* Center text inside the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Smoothly animate transformations */
+    transition: 0.5s;
+}
+
+/* Rotate the box when hovered */
+.transform-box:hover {
+    transform: rotate(45deg);
+}
+
+/* Move the banner slightly when hovered */
+.banner:hover {
+    transform: translate(20px, 10px);
+}
+
+/* Slant the button when hovered */
+button:hover {
+    transform: skew(-10deg);
+}
+
+/* Change the transformation starting point */
+.transform-box {
+    transform-origin: center;
+}

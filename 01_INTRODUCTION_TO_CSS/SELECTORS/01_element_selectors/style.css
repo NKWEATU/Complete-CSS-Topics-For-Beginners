@@ -1,0 +1,14 @@
+
+/* Element Selector */
+
+/* Select all h1 elements */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Select all paragraph elements */
+p {
+    color: green;
+    font-size: 18px;
+}

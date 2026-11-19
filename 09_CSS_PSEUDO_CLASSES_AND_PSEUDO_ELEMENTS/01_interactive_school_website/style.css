@@ -1,0 +1,86 @@
+/* General webpage styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    color: darkblue;
+}
+
+/* Navigation links */
+nav a {
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    padding: 12px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+/* HOVER PSEUDO-CLASS */
+/* Changes link appearance when mouse moves over it */
+nav a:hover {
+    background-color: orange;
+    color: black;
+}
+
+/* ACTIVE PSEUDO-CLASS */
+/* Changes link appearance while it is being clicked */
+nav a:active {
+    background-color: red;
+}
+
+/* VISITED PSEUDO-CLASS */
+/* Changes the colour of links already visited */
+nav a:visited {
+    color: lightgreen;
+}
+
+/* LINK PSEUDO-CLASS */
+/* Styles links that have not been visited */
+nav a:link {
+    color: white;
+}
+
+/* Style the subjects list */
+.subjects {
+    background-color: white;
+    padding: 25px;
+}
+
+/* FIRST-CHILD PSEUDO-CLASS */
+/* Styles the first subject */
+.subjects li:first-child {
+    color: red;
+    font-weight: bold;
+}
+
+/* LAST-CHILD PSEUDO-CLASS */
+/* Styles the last subject */
+.subjects li:last-child {
+    color: blue;
+    font-weight: bold;
+}
+
+/* NTH-CHILD PSEUDO-CLASS */
+/* Styles every even-numbered subject */
+.subjects li:nth-child(even) {
+    background-color: lightblue;
+}
+
+/* FOCUS PSEUDO-CLASS */
+/* Changes the input when selected */
+input:focus {
+    border: 2px solid blue;
+    background-color: lightyellow;
+    outline: none;
+}
+
+/* Hover effect for button */
+button:hover {
+    background-color: green;
+    color: white;
+}

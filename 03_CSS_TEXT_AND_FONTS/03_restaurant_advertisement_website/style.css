@@ -1,0 +1,79 @@
+
+/* Style the entire webpage */
+body {
+    background-color: lightyellow;
+
+    font-family: Arial, sans-serif;
+}
+
+/* Main restaurant section */
+.restaurant {
+    background-color: darkred;
+
+    color: white;
+
+    width: 500px;
+
+    padding: 30px;
+
+    /* Center the restaurant section */
+    margin: 50px auto;
+
+    text-align: center;
+}
+
+/* Style the restaurant name */
+h1 {
+    font-size: 40px;
+
+    color: white;
+
+    /* Add shadow to the text */
+    text-shadow: 3px 3px 5px black;
+
+    /* Increase the spacing between letters */
+    letter-spacing: 4px;
+}
+
+/* Style the restaurant slogan */
+h2 {
+    font-size: 22px;
+
+    /* Increase spacing between words */
+    word-spacing: 8px;
+
+    font-style: italic;
+}
+
+/* Style the restaurant description */
+.description {
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    word-spacing: 4px;
+}
+
+/* Style the special offer */
+.offer {
+    color: yellow;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    /* Add shadow to the offer */
+    text-shadow: 2px 2px 3px black;
+
+    /* Increase letter spacing */
+    letter-spacing: 2px;
+}
+
+/* Style the contact information */
+.contact {
+    font-size: 18px;
+
+    font-weight: bold;
+
+    text-decoration: underline;
+}

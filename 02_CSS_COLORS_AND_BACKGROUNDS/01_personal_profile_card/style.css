@@ -1,0 +1,50 @@
+
+/* Set the background colour of the entire page */
+body {
+    background-color: lightblue; /* Color Name */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the profile card */
+.profile-card {
+    background-color: #FFFFFF; /* HEX Color */
+
+    width: 350px;
+
+    padding: 20px;
+
+    /* Center the card on the page */
+    margin: 50px auto;
+
+    text-align: center;
+
+    /* Add a border */
+    border: 2px solid #0000FF;
+}
+
+/* Style the main heading */
+h1 {
+    color: blue; /* Color Name */
+}
+
+/* Style the student name */
+h2 {
+    color: #008000; /* HEX Color */
+}
+
+/* Style student information */
+p {
+    color: rgb(255, 0, 0); /* RGB Color */
+    font-size: 16px;
+}
+
+/* Style the profile description */
+.description {
+    background-color: rgba(0, 0, 255, 0.2);
+
+    /* RGBA means Red, Green, Blue and Alpha.
+       Alpha controls transparency.
+       0 = fully transparent
+       1 = fully opaque */
+    padding: 10px;
+}

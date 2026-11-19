@@ -1,0 +1,23 @@
+
+/* Class Selector */
+
+/* Select elements with the student class */
+.student {
+    color: blue;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+/* Select elements with the course class */
+.course {
+    color: green;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+/* Select elements with the duration class */
+.duration {
+    color: brown;
+    background-color: lightyellow;
+    padding: 10px;
+}

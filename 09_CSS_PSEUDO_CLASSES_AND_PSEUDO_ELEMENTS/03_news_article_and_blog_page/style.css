@@ -1,0 +1,71 @@
+/* General webpage styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 25px;
+    line-height: 1.6;
+}
+
+/* Main heading */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* ARTICLE HEADING */
+/* Add content before the heading */
+.article-heading::before {
+    content: "NEWS: ";
+    color: red;
+}
+
+/* Add content after the heading */
+.article-heading::after {
+    content: " ★";
+    color: orange;
+}
+
+/* FIRST-LETTER PSEUDO-ELEMENT */
+/* Make the first letter of the article larger */
+.article::first-letter {
+    font-size: 40px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+/* FIRST-LINE PSEUDO-ELEMENT */
+/* Style the first line of each article paragraph */
+.article::first-line {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+/* SELECTION PSEUDO-ELEMENT */
+/* Change the appearance of selected text */
+::selection {
+    background-color: darkblue;
+    color: white;
+}
+
+/* MARKER PSEUDO-ELEMENT */
+/* Change the appearance of list bullets */
+.topics li::marker {
+    color: red;
+    font-size: 20px;
+}
+
+/* Textarea styling */
+textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* PLACEHOLDER PSEUDO-ELEMENT */
+/* Style the placeholder text */
+textarea::placeholder {
+    color: gray;
+    font-style: italic;
+}

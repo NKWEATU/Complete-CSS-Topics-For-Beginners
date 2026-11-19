@@ -1,0 +1,50 @@
+/* General webpage styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Style the main heading */
+h1 {
+    color: darkblue;
+}
+
+/* BLOCK DISPLAY */
+/* Each element starts on a new line */
+.block {
+    display: block;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+/* INLINE DISPLAY */
+/* Elements appear beside one another */
+.inline {
+    display: inline;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+/* INLINE-BLOCK DISPLAY */
+/* Elements appear on the same line and accept width and height */
+.inline-block {
+    display: inline-block;
+    background-color: orange;
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* DISPLAY NONE */
+/* Completely removes the element from the layout */
+.hidden-display {
+    display: none;
+}
+
+/* VISIBILITY HIDDEN */
+/* Hides the element but keeps its space */
+.hidden-visibility {
+    visibility: hidden;
+}

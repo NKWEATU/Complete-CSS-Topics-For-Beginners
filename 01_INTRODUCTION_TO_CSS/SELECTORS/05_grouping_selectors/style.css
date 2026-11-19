@@ -1,0 +1,18 @@
+
+/* Grouping Selector */
+
+/* Apply the same style to h1, h2 and p */
+h1, h2, p {
+    color: blue;
+    font-family: Arial, sans-serif;
+}
+
+/* Center all the grouped elements */
+h1, h2, p {
+    text-align: center;
+}
+
+/* Add spacing to the paragraphs */
+p {
+    padding: 10px;
+}

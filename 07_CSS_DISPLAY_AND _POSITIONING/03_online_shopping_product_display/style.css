@@ -1,0 +1,73 @@
+/* General webpage styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    color: darkblue;
+}
+
+/* Product container */
+.product-container {
+    text-align: center;
+}
+
+/* Product cards */
+.product-card {
+    display: inline-block;
+
+    /* Establish positioning context for sale label */
+    position: relative;
+
+    width: 250px;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid gray;
+}
+
+/* Product image placeholder */
+.product-image {
+    height: 120px;
+    background-color: lightblue;
+
+    /* Centre the placeholder text */
+    text-align: center;
+    line-height: 120px;
+}
+
+/* Sale label */
+.sale-label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    background-color: red;
+    color: white;
+    padding: 8px;
+    z-index: 1;
+}
+
+/* Product button */
+button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Fixed shopping message */
+.shopping-message {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+
+    background-color: darkgreen;
+    color: white;
+    padding: 12px;
+    z-index: 10;
+}

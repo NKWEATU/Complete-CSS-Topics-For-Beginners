@@ -1,0 +1,85 @@
+/* General webpage styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Department list styling */
+.departments {
+    background-color: white;
+
+    /* Remove normal bullets */
+    list-style: none;
+
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+/* Style each department */
+.departments li {
+    background-color: #e0f0ff;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-left: 5px solid blue;
+}
+
+/* Container for the table */
+.table-container {
+    /* Allow horizontal scrolling on small screens */
+    overflow-x: auto;
+}
+
+/* Main table styling */
+table {
+    width: 100%;
+
+    /* Combine table borders */
+    border-collapse: collapse;
+
+    background-color: white;
+}
+
+/* Table caption */
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+
+    /* Place caption above the table */
+    caption-side: top;
+}
+
+/* Table cells */
+th, td {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    text-align: left;
+}
+
+/* Table header */
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+/* Give even rows a different background */
+tbody tr:nth-child(even) {
+    background-color: #e6f2ff;
+}
+
+/* Give odd rows a white background */
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* Change the row background when the mouse moves over it */
+tbody tr:hover {
+    background-color: lightyellow;
+}

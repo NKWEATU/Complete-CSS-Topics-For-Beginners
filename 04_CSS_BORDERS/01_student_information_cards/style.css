@@ -1,0 +1,58 @@
+
+/* Style the entire webpage */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+    color: darkblue;
+}
+
+/* First student card */
+.student-one {
+
+    /* Set the border thickness */
+    border-width: 3px;
+
+    /* Set the border appearance */
+    border-style: solid;
+
+    /* Set the border colour */
+    border-color: blue;
+
+    padding: 15px;
+
+    margin: 20px;
+}
+
+/* Second student card */
+.student-two {
+
+    /* Border shorthand:
+       width, style and colour */
+    border: 4px dashed green;
+
+    padding: 15px;
+
+    margin: 20px;
+}
+
+/* Third student card */
+.student-three {
+
+    /* Different border thickness */
+    border-width: 5px;
+
+    /* Dotted border appearance */
+    border-style: dotted;
+
+    /* Border colour */
+    border-color: red;
+
+    padding: 15px;
+
+    margin: 20px;
+}

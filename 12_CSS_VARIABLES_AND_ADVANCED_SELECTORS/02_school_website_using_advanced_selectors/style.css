@@ -1,0 +1,69 @@
+/* Style the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+/* Style the main heading */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* DESCENDANT SELECTOR */
+/* Select all paragraphs inside department elements */
+.department p {
+    color: darkgreen;
+}
+
+/* CHILD SELECTOR */
+/* Select only paragraphs directly inside department */
+.department > p {
+    background-color: white;
+    padding: 10px;
+}
+
+/* ADJACENT SIBLING SELECTOR */
+/* Select the first paragraph immediately after h2 */
+h2 + p {
+    font-weight: bold;
+}
+
+/* GENERAL SIBLING SELECTOR */
+/* Select all paragraphs following h2 */
+h2 ~ p {
+    border-left: 3px solid orange;
+}
+
+/* :nth-child() */
+/* Select the second department */
+.department:nth-child(2) {
+    background-color: lightblue;
+}
+
+/* :not() */
+/* Select paragraphs that are not important */
+p:not(.important) {
+    padding: 5px;
+}
+
+/* :first-of-type */
+/* Select the first h2 in its parent */
+h2:first-of-type {
+    color: darkblue;
+}
+
+/* :last-of-type */
+/* Select the last paragraph of its type */
+p:last-of-type {
+    color: red;
+}
+
+/* Style department containers */
+.department {
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+}

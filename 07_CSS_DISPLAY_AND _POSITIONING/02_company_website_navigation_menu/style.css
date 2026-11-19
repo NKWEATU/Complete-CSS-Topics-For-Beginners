@@ -1,0 +1,97 @@
+/* General webpage styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+/* FIXED NAVIGATION */
+/* Navigation remains at the top while scrolling */
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+}
+
+/* Navigation links */
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* STATIC POSITIONING */
+/* This is the default positioning of HTML elements */
+.static-box {
+    position: static;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+/* RELATIVE POSITIONING */
+/* Moves the element relative to its normal position */
+.relative-box {
+    position: relative;
+    left: 30px;
+    top: 10px;
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+/* PARENT CONTAINER */
+.parent-box {
+    position: relative;
+    background-color: lightgray;
+    height: 150px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* ABSOLUTE POSITIONING */
+/* Positioned relative to the nearest positioned ancestor */
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: orange;
+    padding: 15px;
+}
+
+/* STICKY POSITIONING */
+/* Sticks to the top when scrolling reaches it */
+.sticky-box {
+    position: sticky;
+    top: 80px;
+    background-color: purple;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Content section */
+.content {
+    height: 700px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* FIXED CONTACT BUTTON */
+/* Remains in the same screen position */
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: darkgreen;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}

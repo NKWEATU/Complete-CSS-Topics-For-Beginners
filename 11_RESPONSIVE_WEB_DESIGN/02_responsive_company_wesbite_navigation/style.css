@@ -1,0 +1,107 @@
+/* Apply box sizing to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Style the entire page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the website header */
+header {
+    background-color: darkblue;
+    color: white;
+
+    /* Arrange logo and navigation horizontally */
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+
+/* Style the logo */
+.logo {
+    margin: 0;
+}
+
+/* Style navigation links */
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+/* Style individual links */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Style the main section */
+.hero {
+    background-color: lightblue;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* Style the main heading */
+.hero h1 {
+    font-size: 40px;
+}
+
+/* Style the button */
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+}
+
+/* Tablet screen */
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+}
+
+/* Mobile screen */
+@media screen and (max-width: 480px) {
+
+    header {
+        padding: 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+}

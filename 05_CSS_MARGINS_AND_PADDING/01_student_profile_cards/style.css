@@ -1,0 +1,66 @@
+
+/* Style the entire webpage */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main heading */
+h1 {
+    text-align: center;
+    color: darkblue;
+
+    /* Add space outside the heading */
+    margin-top: 30px;
+}
+
+/* First student card */
+.student-one {
+
+    background-color: lightblue;
+
+    /* Set the width of the card */
+    width: 300px;
+
+    /* Set the height of the card */
+    height: 150px;
+
+    /* Add space inside the card */
+    padding: 20px;
+
+    /* Add space outside the card */
+    margin: 20px;
+
+}
+
+/* Second student card */
+.student-two {
+
+    background-color: lightgreen;
+
+    width: 300px;
+
+    height: 150px;
+
+    /* Space inside the card */
+    padding: 30px;
+
+    /* Space outside the card */
+    margin: 40px;
+
+}
+
+/* Third student card */
+.student-three {
+
+    background-color: lightyellow;
+
+    width: 300px;
+
+    height: 150px;
+
+    padding: 15px;
+
+    margin: 30px;
+
+}

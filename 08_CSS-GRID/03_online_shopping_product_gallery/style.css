@@ -1,0 +1,50 @@
+/* General webpage styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+/* Description */
+.description {
+    text-align: center;
+}
+
+/* Product grid container */
+.product-container {
+
+    /* Activate CSS Grid */
+    display: grid;
+
+    /* Automatically create responsive columns */
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(200px, 1fr)
+    );
+
+    /* Add space between product cards */
+    gap: 20px;
+}
+
+/* Product cards */
+.product-card {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Product buttons */
+button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

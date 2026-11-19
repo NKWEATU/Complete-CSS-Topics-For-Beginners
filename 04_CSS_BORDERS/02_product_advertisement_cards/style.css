@@ -1,0 +1,63 @@
+
+/* Style the entire webpage */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+    color: darkblue;
+}
+
+/* First product card */
+.product-one {
+
+    /* Round all four corners */
+    border-radius: 15px;
+
+    /* Add a complete border */
+    border: 3px solid blue;
+
+    background-color: white;
+
+    padding: 20px;
+
+    margin: 20px;
+}
+
+/* Second product card */
+.product-two {
+
+    /* Round the corners */
+    border-radius: 25px;
+
+    /* Add only a top border */
+    border-top: 5px solid green;
+
+    /* Add only a bottom border */
+    border-bottom: 5px solid green;
+
+    background-color: white;
+
+    padding: 20px;
+
+    margin: 20px;
+}
+
+/* Third product card */
+.product-three {
+
+    background-color: white;
+
+    padding: 20px;
+
+    margin: 20px;
+
+    /* Add a left border */
+    border-left: 8px solid red;
+
+    /* Add a right border */
+    border-right: 8px solid red;
+}

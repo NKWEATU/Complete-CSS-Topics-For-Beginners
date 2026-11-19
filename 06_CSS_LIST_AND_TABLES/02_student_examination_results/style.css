@@ -1,0 +1,54 @@
+/* Style the webpage */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+/* Style the entire table */
+table {
+    width: 100%;
+
+    /* Combine neighbouring table borders */
+    border-collapse: collapse;
+
+    /* Add a border around the table */
+    border: 2px solid black;
+}
+
+/* Style table headings and data cells */
+th, td {
+    /* Add borders to cells */
+    border: 1px solid gray;
+
+    /* Add space inside cells */
+    padding: 12px;
+
+    /* Align text horizontally */
+    text-align: center;
+
+    /* Align content vertically */
+    vertical-align: middle;
+}
+
+/* Style the table heading row */
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+/* Style alternate table rows */
+tbody tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+/* Style odd table rows */
+tbody tr:nth-child(odd) {
+    background-color: white;
+}

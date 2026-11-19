@@ -1,0 +1,63 @@
+/* General webpage styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main website grid */
+.website-layout {
+
+    /* Activate CSS Grid */
+    display: grid;
+
+    /* Create two columns */
+    grid-template-columns: 200px 1fr;
+
+    /* Create three rows */
+    grid-template-rows: 80px 300px 80px;
+
+    /* Add spacing between grid items */
+    gap: 10px;
+}
+
+/* Header */
+.header {
+
+    /* Make header occupy both columns */
+    grid-column: 1 / 3;
+
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: lightblue;
+    padding: 15px;
+}
+
+/* Main content */
+.main-content {
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+/* Additional content */
+.extra-content {
+    background-color: lightgreen;
+    padding: 15px;
+}
+
+/* Footer */
+.footer {
+
+    /* Make footer occupy both columns */
+    grid-column: 1 / 3;
+
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

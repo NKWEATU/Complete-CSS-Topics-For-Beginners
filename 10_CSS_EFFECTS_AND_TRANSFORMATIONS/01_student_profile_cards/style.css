@@ -1,0 +1,74 @@
+/* Style the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+    color: darkblue;
+
+    /* Add shadow to the heading */
+    text-shadow: 2px 2px 4px gray;
+}
+
+/* Arrange the student cards */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+/* Style each student card */
+.student-card {
+    background-color: white;
+    width: 220px;
+    padding: 25px;
+
+    /* Add shadow around the card */
+    box-shadow: 3px 3px 10px gray;
+
+    /* Add smooth animation */
+    transition: 0.5s;
+
+    /* Control transparency */
+    opacity: 0.8;
+}
+
+/* Apply effects when the mouse moves over a card */
+.student-card:hover {
+
+    /* Make the card fully visible */
+    opacity: 1;
+
+    /* Increase the card size */
+    transform: scale(1.05);
+
+    /* Change the shadow */
+    box-shadow: 5px 5px 20px gray;
+
+    /* Change the mouse pointer */
+    cursor: pointer;
+}
+
+/* Style the buttons */
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+
+    /* Change the mouse pointer */
+    cursor: pointer;
+
+    /* Make button changes smooth */
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: orange;
+}

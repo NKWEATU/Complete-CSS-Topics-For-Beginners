@@ -1,0 +1,89 @@
+
+/* Style the entire webpage */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+
+    /* Remove default browser margin */
+    margin: 0;
+}
+
+/* Website header */
+header {
+    background-color: darkblue;
+    color: white;
+
+    /* Padding shorthand:
+       20px applies to all four sides */
+    padding: 20px;
+
+    text-align: center;
+}
+
+/* Navigation section */
+nav {
+    background-color: black;
+
+    /* Add space inside the navigation */
+    padding: 15px;
+
+    text-align: center;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+
+    /* Add space between the links */
+    margin: 15px;
+
+    /* Add space around each link */
+    padding: 10px;
+
+    text-decoration: none;
+}
+
+/* About section */
+.about {
+    background-color: white;
+
+    /* Margin shorthand:
+       top and bottom = 30px
+       left and right = 50px */
+    margin: 30px 50px;
+
+    /* Padding shorthand:
+       top and bottom = 20px
+       left and right = 30px */
+    padding: 20px 30px;
+}
+
+/* Admission section */
+.admission {
+    background-color: lightblue;
+
+    /* Individual margin properties */
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+
+    /* Individual padding properties */
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+
+    text-align: center;
+}
+
+/* Admission button */
+button {
+    background-color: green;
+    color: white;
+
+    /* Padding shorthand */
+    padding: 12px 25px;
+
+    border: none;
+}

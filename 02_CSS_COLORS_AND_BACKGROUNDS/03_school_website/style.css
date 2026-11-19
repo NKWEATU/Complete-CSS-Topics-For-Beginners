@@ -1,0 +1,80 @@
+
+/* Remove default page spacing */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* School welcome section */
+.hero {
+
+    /* Add the school background image */
+    background-image: url("images/school.jpg");
+
+    /* Prevent the background image from repeating */
+    background-repeat: no-repeat;
+
+    /* Position the image at the center */
+    background-position: center;
+
+    /* Make the image cover the section */
+    background-size: cover;
+
+    /* Keep the background image fixed
+       when the user scrolls the page */
+    background-attachment: fixed;
+
+    /* Set section height */
+    height: 350px;
+
+    /* Center the text */
+    text-align: center;
+
+    /* Set text colour */
+    color: white;
+
+    padding: 50px 20px;
+}
+
+/* School heading */
+.hero h1 {
+    font-size: 40px;
+}
+
+/* School description */
+.hero p {
+    font-size: 20px;
+}
+
+/* About section */
+.about {
+    background-color: #F0F0F0;
+
+    color: rgb(0, 0, 100);
+
+    padding: 50px;
+
+    text-align: center;
+}
+
+/* Courses section */
+.courses {
+    background-color: rgba(0, 128, 0, 0.2);
+
+    color: green;
+
+    padding: 50px;
+
+    text-align: center;
+}
+
+/* Contact section */
+.contact {
+    background-color: #000080;
+
+    color: white;
+
+    padding: 50px;
+
+    text-align: center;
+}

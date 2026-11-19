@@ -1,0 +1,57 @@
+
+/* Style the entire webpage */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Company profile section */
+.company {
+
+    background-color: white;
+
+    padding: 30px;
+
+    margin: 30px;
+
+    /* Add a border image */
+    border: 15px solid transparent;
+
+    border-image-source: url("images/tech.jpg");
+
+    /* Set how the border image is sliced */
+    border-image-slice: 30;
+
+    /* Stretch the border image around the element */
+    border-image-repeat: stretch;
+
+    /* Set the width of the border image */
+    border-image-width: 15px;
+}
+
+/* Company heading */
+.company h1 {
+    color: darkblue;
+}
+
+/* Company services section */
+.services {
+
+    background-color: white;
+
+    padding: 25px;
+
+    margin: 30px;
+
+    /* Use a normal border */
+    border: 4px double green;
+
+    /* Round the corners */
+    border-radius: 20px;
+}
+
+/* Services heading */
+.services h2 {
+    color: green;
+}

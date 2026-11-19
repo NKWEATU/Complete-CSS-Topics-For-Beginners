@@ -1,0 +1,72 @@
+
+/* Style the entire webpage */
+body {
+    background-color: white;
+
+    font-family: Arial, sans-serif;
+
+    padding: 20px;
+}
+
+/* Style the news website heading */
+h1 {
+    color: darkblue;
+
+    text-align: center;
+
+    /* Convert text to uppercase */
+    text-transform: uppercase;
+}
+
+/* Style the article category */
+.category {
+    color: green;
+
+    /* Convert text to uppercase */
+    text-transform: uppercase;
+
+    font-size: 16px;
+}
+
+/* Style the article title */
+.article-title {
+    color: darkblue;
+
+    /* Capitalize the first letter of each word */
+    text-transform: capitalize;
+
+    font-size: 28px;
+}
+
+/* Style the author information */
+.author {
+    color: gray;
+
+    /* Underline the author's name */
+    text-decoration: underline;
+
+    font-style: italic;
+}
+
+/* Style the article paragraphs */
+.article {
+
+    font-size: 18px;
+
+    /* Indent the first line of each paragraph */
+    text-indent: 40px;
+
+    /* Increase the space between lines */
+    line-height: 1.8;
+
+    /* Align text evenly on both sides */
+    text-align: justify;
+}
+
+/* Style the read more link */
+a {
+    color: blue;
+
+    /* Remove the default underline */
+    text-decoration: none;
+}

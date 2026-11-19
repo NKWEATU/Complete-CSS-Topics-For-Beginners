@@ -1,0 +1,77 @@
+
+/* Style the entire webpage */
+body {
+    background-color: lightgray;
+
+    /* Change the font used on the webpage */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main heading */
+h1 {
+    color: darkblue;
+
+    /* Change the size of the heading */
+    font-size: 40px;
+
+    /* Make the heading bold */
+    font-weight: bold;
+
+    /* Align the heading to the center */
+    text-align: center;
+}
+
+/* Style all subheadings */
+h2 {
+    color: green;
+
+    /* Change the font size */
+    font-size: 25px;
+
+    /* Make the headings bold */
+    font-weight: 700;
+}
+
+/* Style the school introduction */
+.introduction {
+    /* Change the font family */
+    font-family: Georgia, serif;
+
+    /* Change the text size */
+    font-size: 18px;
+
+    /* Make the text normal */
+    font-weight: normal;
+
+    /* Align the text to the left */
+    text-align: left;
+}
+
+/* Style the mission paragraph */
+.mission {
+    /* Make the text italic */
+    font-style: italic;
+
+    font-size: 20px;
+
+    color: darkgreen;
+}
+
+/* Style the vision paragraph */
+.vision {
+    font-family: Verdana, sans-serif;
+
+    /* Make the text bold */
+    font-weight: bold;
+
+    font-size: 18px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+
+    font-size: 14px;
+
+    color: gray;
+}

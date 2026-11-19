@@ -1,0 +1,81 @@
+/* Declare global CSS variables */
+:root {
+
+    /* Website colours */
+    --main-color: darkblue;
+    --secondary-color: orange;
+    --background-color: #f2f2f2;
+    --text-color: white;
+
+    /* Website spacing */
+    --main-spacing: 20px;
+
+    /* Website border radius */
+    --card-radius: 10px;
+
+    /* Website font */
+    --main-font: Arial, sans-serif;
+
+}
+
+/* Style the entire page */
+body {
+    font-family: var(--main-font);
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+/* Style the header */
+header {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    padding: var(--main-spacing);
+    text-align: center;
+}
+
+/* Style navigation links */
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Style the main section */
+.hero {
+    background-color: var(--secondary-color);
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style buttons */
+button {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    padding: var(--main-spacing);
+    border: none;
+}
+
+/* Style service cards */
+.services {
+    display: flex;
+    justify-content: center;
+    gap: var(--main-spacing);
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+/* Style individual cards */
+.service-card {
+    background-color: var(--text-color);
+    padding: var(--main-spacing);
+    border-radius: var(--card-radius);
+    width: 220px;
+}
+
+/* Style footer */
+footer {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: var(--main-spacing);
+}

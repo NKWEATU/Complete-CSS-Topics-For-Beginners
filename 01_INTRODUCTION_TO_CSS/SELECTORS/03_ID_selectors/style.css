@@ -1,0 +1,23 @@
+
+/* ID Selector */
+
+/* Select the element with the heading ID */
+#heading {
+    color: blue;
+    text-align: center;
+}
+
+/* Select the element with the description ID */
+#description {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Select the element with the register ID */
+#register {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border: none;
+}
